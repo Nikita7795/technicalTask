@@ -1,0 +1,89 @@
+.CommentCard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CommentCardDepth {
+  margin-left: 34px;
+}
+
+.CommentCard-avatarContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px
+}
+
+.CommentCard-avatar {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.CommentCard-containerAuthor {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.CommentCard-likes {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.CommentCard-like {
+  cursor: pointer;
+  user-select: none;
+}
+
+.CommentCard-likeActive {
+  fill: #B43333;
+}
+
+.CommentCard-textDate {
+  color: #8297AB;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  line-height: normal;
+}
+
+.CommentCard-textDef {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.CommentCard-textMessage {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  margin-left: 88px;
+  word-wrap: break-word;
+}
+
+@media (max-width: 720px) {
+  .CommentCardDepth {
+    margin-left: 20px;
+  }
+
+  .CommentCard-avatar {
+    width: 40px;
+    height: 40px;
+  }
+
+  .CommentCard-textDate, .CommentCard-textDef, .CommentCardDepth, .CommentCard-textMessage {
+    font-size: 14px;
+  }
+
+  .CommentCard-textMessage {
+    margin-left: 60px;
+    margin-top: 8px;
+  }
+}

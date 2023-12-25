@@ -1,0 +1,103 @@
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.textRejectContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.textReject {
+  color: white;
+  font-size: 26px;
+}
+
+.Comments {
+  position: relative;
+  width: 41.1vw;
+  margin: 52px auto 64px auto;
+  text-align: center;
+}
+
+.Comments-cards {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: calc(100vh - 255px);
+  gap: 32px;
+  margin-bottom: 40px;
+  padding-right: 2px;
+}
+
+.Comments-cards::-webkit-scrollbar {
+  width: 2px;
+}
+
+.Comments-cards::-webkit-scrollbar-thumb {
+  background-color: #767676;
+  border-radius: 6px;
+}
+
+.Comments-button {
+  background-color: #313439;
+  padding: 8px 32px;
+  color: #FFF;
+  font-size: 16px;
+  border-radius: 4px;
+  backdrop-filter: blur(13.5px);
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.Comments-buttonPending {
+  color: transparent;
+}
+
+.Comments-buttonPending::after {
+  position: absolute;
+  content: " ";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 7px;
+  left: 72px;
+  border: 0.2px solid #fff;
+  ;
+  border-top-color: #D44F4F;
+  animation: rotate 1.5s linear infinite;
+}
+
+.Comments-button:disabled {
+  background-color: #A9A9A9;
+}
+
+@media (max-width: 720px) {
+  .textReject {
+    font-size: 18px;
+  }
+
+  .Comments {
+    width: calc(100vw - 48px);
+    margin: 32px 24px 48px 24px;
+  }
+
+  .Comments-cards {
+    height: calc(100vh - 210px);
+    gap: 24px;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

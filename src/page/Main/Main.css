@@ -1,0 +1,109 @@
+.Main {
+  height: 100vh;
+  background: url('background.jpeg') lightgray 50% no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.Main-comment {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+}
+
+.Main-gradient1 {
+  position: absolute;
+  top: -33vh;
+  left: -7.6vw;
+  width: 17vw;
+  height: 100vh;
+  transform: rotate(-24.856deg);
+  opacity: 0.5;
+  background: #787A00;
+  filter: blur(150px);
+}
+
+.Main-gradient3 {
+  position: absolute;
+  top: -49vh;
+  left: -5.4vw;
+  width: 4.1vw;
+  height: 100vh;
+  transform: rotate(-24.856deg);
+  opacity: 0.2;
+  background: rgba(100, 61, 44, 1);
+  filter: blur(18.5px);
+}
+
+.Main-gradient4 {
+  position: absolute;
+  top: 9.8vh;
+  left: -20.7vw;
+  width: 29.7vw;
+  height: 100vh;
+  transform: rotate(-24.856deg);
+  opacity: 0.5;
+  background: #643D2C;
+  filter: blur(150px);
+}
+
+.Main-gradient5 {
+  position: absolute;
+  top: -27vh;
+  left: -38vw;
+  width: 31vw;
+  height: 75.8vh;
+  transform: rotate(-31.901deg);
+  opacity: 0.2;
+  background: #DB475F;
+  filter: blur(79px);
+}
+
+.Main-gradient6 {
+  position: absolute;
+  top: -69vh;
+  left: 72.2vw;
+  width: 31vw;
+  height: 100vh;
+  transform: rotate(18.637deg);
+  border-radius: 1163px;
+  opacity: 0.2;
+  background: #13FEF0;
+  filter: blur(150px);
+}
+
+.Main-gradient7 {
+  position: absolute;
+  top: 73.2vh;
+  left: 60vw;
+  width: 77vw;
+  height: 100vh;
+  transform: rotate(0.972deg);
+  opacity: 0.2;
+  background: #2E548C;
+  filter: blur(150px);
+}
+
+.Main-gradient8 {
+  position: absolute;
+  top: 3.6vh;
+  left: -8.5vw;
+  width: 37vw;
+  height: 29.7vh;
+  transform: rotate(-24.856deg);
+  opacity: 0.5;
+  background: #D47B3A;
+  filter: blur(150px);
+}
+
+.Main-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1));
+}
+  
+   
