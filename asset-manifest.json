@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/technicalTask/static/css/main.8187e9fa.css",
+    "main.js": "/technicalTask/static/js/main.ef28328b.js",
+    "static/media/background.jpeg": "/technicalTask/static/media/background.ccea74dbc95dd652ae07.jpeg",
+    "static/media/han-solo.jpg": "/technicalTask/static/media/han-solo.84705bac66e252072c67.jpg",
+    "static/media/likeGreySvg.svg": "/technicalTask/static/media/likeGreySvg.104d7fa95e36c483908db2d211f96e3f.svg",
+    "static/media/likeSvg.svg": "/technicalTask/static/media/likeSvg.2b9e5fd71d77ead9a103b8b11e653890.svg",
+    "index.html": "/technicalTask/index.html",
+    "main.8187e9fa.css.map": "/technicalTask/static/css/main.8187e9fa.css.map",
+    "main.ef28328b.js.map": "/technicalTask/static/js/main.ef28328b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8187e9fa.css",
+    "static/js/main.ef28328b.js"
+  ]
+}
